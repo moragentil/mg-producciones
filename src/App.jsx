@@ -31,7 +31,7 @@ function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
-              <button className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-12 py-4 text-lg rounded-full shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
+              <button className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-12 py-4 text-lg rounded-lg shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
                 Cotiza tu evento
               </button>
               <div className="flex items-center gap-2 text-neutral-light/80 text-sm">
@@ -213,7 +213,7 @@ function App() {
               </div>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden bg-neutral-medium flex items-center justify-center text-white">
-              <span className="text-xl">Imagen del evento</span>
+              <img src={logo} alt="Imagen del evento" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>
