@@ -19,15 +19,15 @@ function App() {
               </div>
               <div>
                 <p className="text-[0.75rem] uppercase tracking-[0.25em] text-gold">MG Producciones</p>
-                <p className="text-sm text-neutral-light/80">Diseño, producción y dirección de eventos</p>
+                <p className="text-sm text-neutral-light/80">Eventos y espectáculos en vivo</p>
               </div>
             </div>
 
-            <h1 className="text-5xl leading-[1.05] font-bold">
-              Experiencias <span className="text-gold">memorables</span> que hablan por tu marca
+            <h1 className="text-4xl leading-[1.05] font-bold">
+              La productora que hace vibrar tus <span className="text-gold"> Eventos y Espectáculos</span>
             </h1>
             <p className="text-lg text-neutral-light/80 max-w-2xl">
-              Curamos atmósferas, coordinamos equipos y dirigimos cada instante para que tus invitados vivan algo irrepetible.
+              Producimos momentos que se sienten: energía en escena, emoción en el público y cada detalle cuidado para que disfrutes de principio a fin.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -36,14 +36,14 @@ function App() {
               </button>
               <div className="flex items-center gap-2 text-neutral-light/80 text-sm">
                 <span className="h-px w-10 bg-gold/60" />
-                <span>Producción integral end-to-end</span>
+                <span>Nos ocupamos de todo: idea, escena y público</span>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-3 text-sm text-neutral-light/70">
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">+10 años creando experiencias</div>
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo & técnico in-house</div>
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Producción boutique</div>
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">+10 años produciendo shows y eventos</div>
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo, técnico y artístico in-house</div>
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Experiencias a medida de principio a fin</div>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ function App() {
             <div className="bg-neutral-dark/40 border border-white/10 rounded-2xl p-6 backdrop-blur shadow-2xl shadow-black/30">
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <p className="text-sm text-neutral-light/70">Eventos dirigidos</p>
+                  <p className="text-sm text-neutral-light/70">Shows y eventos producidos</p>
                   <p className="text-3xl font-bold text-gold">+320</p>
                 </div>
                 <span className="px-3 py-1 rounded-full bg-gold/20 text-gold text-sm font-semibold">Premium</span>
@@ -60,33 +60,33 @@ function App() {
                 <div className="flex items-start gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
                   <div>
-                    <p className="font-semibold text-white">Concepto + Dirección</p>
-                    <p className="text-neutral-light/70 text-sm">Narrativa, escenografía y flow de experiencia.</p>
+                    <p className="font-semibold text-white">Dirección artística</p>
+                    <p className="text-neutral-light/70 text-sm">Curamos la puesta, ritmo y relato de cada show.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
                   <div>
-                    <p className="font-semibold text-white">Operación técnica</p>
-                    <p className="text-neutral-light/70 text-sm">Audio, video, iluminación y stage management.</p>
+                    <p className="font-semibold text-white">Producción técnica en vivo</p>
+                    <p className="text-neutral-light/70 text-sm">Sonido, luces y pantallas sincronizadas para emocionar.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
                   <div>
-                    <p className="font-semibold text-white">Producción ejecutiva</p>
-                    <p className="text-neutral-light/70 text-sm">Coordinación de proveedores y logística 360°.</p>
+                    <p className="font-semibold text-white">Backstage y logística</p>
+                    <p className="text-neutral-light/70 text-sm">Coordinamos talentos, tiempos y proveedores sin sobresaltos.</p>
                   </div>
                 </div>
               </div>
               <div className="mt-6 grid grid-cols-2 gap-4 text-center text-sm text-neutral-light/80">
                 <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
                   <p className="text-2xl font-bold text-gold">98%</p>
-                  <p>Satisfacción</p>
+                  <p>Clientes felices</p>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
                   <p className="text-2xl font-bold text-gold">24/7</p>
-                  <p>On-site team</p>
+                  <p>Equipo on-site</p>
                 </div>
               </div>
             </div>
