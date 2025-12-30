@@ -1,18 +1,96 @@
+import logo from "./assets/mg-producciones-logo.jpeg"
+
 function App() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-neutral-dark text-white px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl mb-6 leading-tight font-bold">
-            Transformamos momentos en experiencias inolvidables
-          </h1>
-          <p className="text-lg md:text-xl text-neutral-light mb-8 max-w-2xl mx-auto leading-relaxed">
-            Creamos eventos únicos con atención al detalle, diseño impecable y ejecución perfecta para hacer realidad tu visión.
-          </p>
-          <button className="bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-8 py-4 text-lg rounded-lg transition-colors">
-            Cotiza tu evento
-          </button>
+      <section className="relative min-h-screen bg-neutral-darker text-white overflow-hidden px-16 py-16 md:py-12 flex justify-center">
+        <div className="absolute inset-0">
+          <div className="absolute -left-32 h-72 w-72 bg-gold/15 blur-3xl" />
+          <div className="absolute right-[-5rem] top-10 h-80 w-80 rounded-full border border-gold/25" />
+          <div className="absolute right-6 bottom-10 h-56 w-56 bg-gold/10 blur-3xl" />
+        </div>
+
+        <div className="relative max-w-6xl justify-center grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
+          <div className="space-y-7">
+            <div className="flex items-center gap-4">
+              <div className="w-32 h-32 rounded-full bg-white/90 flex items-center justify-center shadow-lg shadow-gold/25 overflow-hidden ring-2 ring-gold/60">
+                <img src={logo} alt="MG Producciones" className="w-full h-full object-cover" />
+              </div>
+              <div>
+                <p className="text-[0.75rem] uppercase tracking-[0.25em] text-gold">MG Producciones</p>
+                <p className="text-sm text-neutral-light/80">Diseño, producción y dirección de eventos</p>
+              </div>
+            </div>
+
+            <h1 className="text-5xl leading-[1.05] font-bold">
+              Experiencias <span className="text-gold">memorables</span> que hablan por tu marca
+            </h1>
+            <p className="text-lg text-neutral-light/80 max-w-2xl">
+              Curamos atmósferas, coordinamos equipos y dirigimos cada instante para que tus invitados vivan algo irrepetible.
+            </p>
+
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <button className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-12 py-4 text-lg rounded-full shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
+                Cotiza tu evento
+              </button>
+              <div className="flex items-center gap-2 text-neutral-light/80 text-sm">
+                <span className="h-px w-10 bg-gold/60" />
+                <span>Producción integral end-to-end</span>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-3 text-sm text-neutral-light/70">
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">+10 años creando experiencias</div>
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo & técnico in-house</div>
+              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Producción boutique</div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="bg-neutral-dark/40 border border-white/10 rounded-2xl p-6 backdrop-blur shadow-2xl shadow-black/30">
+              <div className="flex items-center justify-between mb-6">
+                <div>
+                  <p className="text-sm text-neutral-light/70">Eventos dirigidos</p>
+                  <p className="text-3xl font-bold text-gold">+320</p>
+                </div>
+                <span className="px-3 py-1 rounded-full bg-gold/20 text-gold text-sm font-semibold">Premium</span>
+              </div>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
+                  <div>
+                    <p className="font-semibold text-white">Concepto + Dirección</p>
+                    <p className="text-neutral-light/70 text-sm">Narrativa, escenografía y flow de experiencia.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
+                  <div>
+                    <p className="font-semibold text-white">Operación técnica</p>
+                    <p className="text-neutral-light/70 text-sm">Audio, video, iluminación y stage management.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
+                  <div>
+                    <p className="font-semibold text-white">Producción ejecutiva</p>
+                    <p className="text-neutral-light/70 text-sm">Coordinación de proveedores y logística 360°.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-6 grid grid-cols-2 gap-4 text-center text-sm text-neutral-light/80">
+                <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+                  <p className="text-2xl font-bold text-gold">98%</p>
+                  <p>Satisfacción</p>
+                </div>
+                <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+                  <p className="text-2xl font-bold text-gold">24/7</p>
+                  <p>On-site team</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
