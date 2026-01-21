@@ -40,10 +40,10 @@ function App() {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 text-xs md:text-sm text-neutral-light/70">
-              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">+10 años produciendo shows y eventos</div>
-              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo, técnico y artístico in-house</div>
-              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">Experiencias a medida de principio a fin</div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-3 text-xs md:text-sm text-neutral-light/70">
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5 text-center">Producción profesional de shows y eventos</div>
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5 text-center">Equipo creativo, técnico y artístico in-house</div>
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5 text-center">Experiencias a medida de principio a fin</div>
             </div>
           </div>
 
@@ -81,12 +81,12 @@ function App() {
               </div>
               <div className="mt-6 grid grid-cols-2 gap-4 text-center text-sm text-neutral-light/80">
                 <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-                  <p className="text-2xl font-bold text-gold">98%</p>
-                  <p>Clientes felices</p>
+                  <p className="text-2xl font-bold text-gold">100%</p>
+                  <p>Compromiso</p>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-                  <p className="text-2xl font-bold text-gold">24/7</p>
-                  <p>Equipo on-site</p>
+                  <p className="text-2xl font-bold text-gold">Full</p>
+                  <p>Soporte</p>
                 </div>
               </div>
             </div>
@@ -184,7 +184,7 @@ function App() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2 text-neutral-dark">Experiencia comprobada</h3>
                     <p className="text-neutral-medium leading-relaxed">
-                      Más de una década creando eventos exitosos para clientes que confían en nuestra calidad.
+                      Creamos eventos exitosos para clientes que confían en nuestra calidad y profesionalismo.
                     </p>
                   </div>
                 </div>
