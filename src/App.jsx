@@ -32,7 +32,7 @@ function App() {
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <button className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-12 py-4 text-lg rounded-lg shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
-                Cotiza tu evento
+                Contactanos - contacto@mgproducciones.com.ar
               </button>
               <div className="flex items-center gap-2 text-neutral-light/80 text-sm">
                 <span className="h-px w-10 bg-gold/60" />
@@ -228,10 +228,7 @@ function App() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-8 py-4 text-lg rounded-lg transition-colors">
-              Solicitar cotización
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-neutral-dark px-8 py-4 text-lg bg-transparent rounded-lg transition-colors">
-              Ver nuestro portfolio
+              Contactanos - contacto@mgproducciones.com.ar
             </button>
           </div>
         </div>
@@ -242,6 +239,8 @@ function App() {
         <div className="w-full max-w-6xl text-center">
           <p className="mb-4">© 2025 MG Producciones. Todos los derechos reservados.</p>
           <p className="text-sm text-neutral-medium">Creando experiencias memorables desde 2010</p>
+
+          <p className="text-sm text-neutral-medium">Desarrollada por Resguar IT <a href="https://resguarit.com.ar" target="_blank" rel="noopener noreferrer" className="text-gold">resguarit.com.ar</a></p>
         </div>
       </footer>
     </main>
