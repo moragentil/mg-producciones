@@ -1,10 +1,10 @@
-import logo from "./assets/mg-producciones-logo.jpeg"
+import logo from "./assets/mg-producciones-logo.webp"
 
 function App() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-neutral-darker text-white overflow-hidden px-16 py-16 md:py-12 flex justify-center">
+      <section className="relative min-h-screen bg-neutral-darker text-white overflow-hidden px-6 md:px-12 lg:px-16 py-16 md:py-12 flex justify-center">
         <div className="absolute inset-0">
           <div className="absolute -left-32 h-72 w-72 bg-gold/15 blur-3xl" />
           <div className="absolute right-[-5rem] top-10 h-80 w-80 rounded-full border border-gold/25" />
@@ -14,24 +14,24 @@ function App() {
         <div className="relative max-w-6xl justify-center grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
           <div className="space-y-7">
             <div className="flex items-center gap-4">
-              <div className="w-32 h-32 rounded-full bg-white/90 flex items-center justify-center shadow-lg shadow-gold/25 overflow-hidden ring-2 ring-gold/60">
+              <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-white/90 flex items-center justify-center shadow-lg shadow-gold/25 overflow-hidden ring-2 ring-gold/60">
                 <img src={logo} alt="MG Producciones" className="w-full h-full object-cover" />
               </div>
               <div>
-                <p className="text-[0.75rem] uppercase tracking-[0.25em] text-gold">MG Producciones</p>
-                <p className="text-sm text-neutral-light/80">Eventos y espectáculos en vivo</p>
+                <p className="text-[0.65rem] md:text-[0.75rem] uppercase tracking-[0.2em] md:tracking-[0.25em] text-gold">MG Producciones</p>
+                <p className="text-xs md:text-sm text-neutral-light/80">Eventos y espectáculos en vivo</p>
               </div>
             </div>
 
-            <h1 className="text-4xl leading-[1.05] font-bold">
+            <h1 className="text-3xl md:text-4xl leading-[1.1] font-bold">
               La productora que hace vibrar tus <span className="text-gold"> Eventos y Espectáculos</span>
             </h1>
-            <p className="text-lg text-neutral-light/80 max-w-2xl">
+            <p className="text-base md:text-lg text-neutral-light/80 max-w-2xl">
               Producimos momentos que se sienten: energía en escena, emoción en el público y cada detalle cuidado para que disfrutes de principio a fin.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
-              <button className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-12 py-4 text-lg rounded-lg shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
+              <button className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-neutral-dark font-semibold px-6 md:px-12 py-3 md:py-4 text-base md:text-lg rounded-lg shadow-lg shadow-gold/25 transition-all hover:-translate-y-0.5">
                 Contactanos - contacto@mgproducciones.com.ar
               </button>
               <div className="flex items-center gap-2 text-neutral-light/80 text-sm">
@@ -40,10 +40,10 @@ function App() {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-3 text-sm text-neutral-light/70">
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">+10 años produciendo shows y eventos</div>
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo, técnico y artístico in-house</div>
-              <div className="px-4 py-2 rounded-full border border-white/15 bg-white/5">Experiencias a medida de principio a fin</div>
+            <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 text-xs md:text-sm text-neutral-light/70">
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">+10 años produciendo shows y eventos</div>
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">Equipo creativo, técnico y artístico in-house</div>
+              <div className="px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-white/15 bg-white/5">Experiencias a medida de principio a fin</div>
             </div>
           </div>
 
@@ -51,8 +51,8 @@ function App() {
             <div className="bg-neutral-dark/40 border border-white/10 rounded-2xl p-6 backdrop-blur shadow-2xl shadow-black/30">
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <p className="text-sm text-neutral-light/70">Shows y eventos producidos</p>
-                  <p className="text-3xl font-bold text-gold">+320</p>
+                  <p className="text-sm text-neutral-light/70">Experiencias únicas</p>
+                  <p className="text-2xl font-bold text-gold">Producción integral</p>
                 </div>
                 <span className="px-3 py-1 rounded-full bg-gold/20 text-gold text-sm font-semibold">Premium</span>
               </div>
@@ -95,9 +95,9 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section className="h-[80vh] items-center px-4 bg-white flex justify-center">
+      <section className="py-16 md:py-24 items-center px-6 md:px-8 bg-white flex justify-center">
         <div className="w-full max-w-6xl">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 md:mb-16">
             <h2 className="text-4xl md:text-5xl mb-4 text-neutral-dark font-bold">Nuestros Servicios</h2>
             <p className="text-neutral-medium text-lg max-w-2xl mx-auto leading-relaxed">
               Especialistas en la producción integral de eventos corporativos, sociales y culturales
@@ -169,7 +169,7 @@ function App() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 px-4 bg-neutral-light flex justify-center">
+      <section className="py-20 px-6 md:px-8 bg-neutral-light flex justify-center">
         <div className="w-full max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -220,7 +220,7 @@ function App() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-neutral-dark text-white flex justify-center">
+      <section className="py-20 px-6 md:px-8 bg-neutral-dark text-white flex justify-center">
         <div className="w-full max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl mb-6 font-bold">Hagamos realidad tu próximo evento</h2>
           <p className="text-lg text-neutral-light mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -235,10 +235,9 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 bg-neutral-darker text-neutral-light flex justify-center">
+      <footer className="py-12 px-6 md:px-8 bg-neutral-darker text-neutral-light flex justify-center">
         <div className="w-full max-w-6xl text-center">
           <p className="mb-4">© 2025 MG Producciones. Todos los derechos reservados.</p>
-          <p className="text-sm text-neutral-medium">Creando experiencias memorables desde 2010</p>
 
           <p className="text-sm text-neutral-medium">Desarrollada por Resguar IT <a href="https://resguarit.com.ar" target="_blank" rel="noopener noreferrer" className="text-gold">resguarit.com.ar</a></p>
         </div>
